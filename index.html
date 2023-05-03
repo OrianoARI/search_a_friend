@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Cherche un pote.com</title>
+</head>
+<body>
+<header>
+    <h1>Trouve toi des potes.COM</h1>
+</header>
+<main>
+    <div class="menu-container">
+        <div class="side-menu">
+            <ul>
+                <li><a href="#"></a>Home</li>
+                <li>Galerie des horreurs</li>
+                <li><a href="#" class="add">Ajouter un pote</a></li>
+            </ul>
+        </div>
+        <div id="menuBurger" class="closed">
+            <span class="burger" id="burgerOne"></span>
+            <span class="burger" id="burgerTwo"></span>
+            <span class="burger" id="burgerThree"></span>
+        </div>
+    </div>
+<div class="friends-list">
+
+</div>
+
+<div class="dial-add modal-hidden">
+    <form action="" method="post" enctype="multipart/form-data">
+        <h3>J'ai trouvé un nouveau pote</h3>
+        <!-- <input class="input" type="file" name="img" id="img"> -->
+        <label for="name">Nom:</label>
+        <input class="input" type="text" name="name" id="name">
+        <label for="firstName">Prénom:</label>
+        <input class="input" type="text" name="firstName" id="firstName">
+        <label for="mail">Adresse mail :</label>
+        <input class="input" type="mail" id="mail" name="mail">
+        <label for="password">Mot de passe :</label>
+        <input class="input" type="password" id="password" name="password">
+        <div class="btn">
+            <button class="add-friend-btn" type="button">Ajouter</button>
+            <button type="button" class="close-btn">Annuler</button>
+        </div>
+    </form>
+</div>
+
+
+
+<div class="dial-update modal-hidden">
+    <form action="" method="post" enctype="multipart/form-data">
+        <h3>J'ai trouvé un nouveau pote</h3>
+        <!-- <input class="input" type="file" name="img" id="img"> -->
+        <label for="upName">Nom:</label>
+        <input class="input" type="text" name="upName" id="upName">
+        <label for="upFirstName">Prénom:</label>
+        <input class="input" type="text" name="upFirstName" id="upFirstName">
+        <label for="upMail">Adresse mail :</label>
+        <input class="input" type="mail" id="upMail" name="upMail">
+        <label for="upPassword">Mot de passe :</label>
+        <input class="input" type="password" id="upPassword" name="upPassword">
+        <div class="btn">
+            <button class="up-friend-btn" type="button">Valider</button>
+            <button type="button" class="close-up">Annuler</button>
+        </div>
+    </form>
+</div>
+<div class="overlay hidden"></div>
+</main>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
